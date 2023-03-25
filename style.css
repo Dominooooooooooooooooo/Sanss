@@ -81,3 +81,43 @@ body{
     justify-content: center;
     justify-content: space-evenly;
 }
+/* адаптивность */
+@media (max-width: 1099px) {
+.la{
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+.lo{
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+.li{
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+.le{
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+}
+@media (orientation: portrait) and (min-width: 400px) and (max-width: 855) {
+.name {
+    font-size: 15px;
+}
+.lol{
+    font-size: 15px;
+}
+.LV{
+    font-size: 15px;
+}
+.kr{
+    font-size: 15px;
+}
+.hp{
+    font-size: 15px;
+}
+}
